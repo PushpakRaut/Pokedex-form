@@ -1,0 +1,168 @@
+.App{
+  width: 100%;
+  min-height: 100vh;
+  background: url('../public/images/Image_2.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 80px 0; */
+  position: relative;
+}
+p{
+  margin-top: 0;
+}
+.nameform{
+  width: 488px;
+  box-sizing: border-box;
+  height: auto;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 80px;
+  margin-top: 80px;
+}
+.order-form{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #889296;
+  z-index: 1111;
+}
+.form-order{
+  width: 488px;
+  box-sizing: border-box;
+  height: auto;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px 80px;
+}
+.heading{
+  color: #FE5454;
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 0;
+}
+.heading-para{
+  color: #889296;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  padding: 0 9px;
+}
+.input-field{
+  margin-bottom: 24px;
+}
+.slide{
+  margin: 50px 0 40px 0;
+}
+.slider-para{
+  text-align: center;
+  font-size: 14px;
+}
+.slider-para-order{
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000DE;
+}
+.select-item{
+  margin-bottom: 40px;
+}
+.select-pokemon{
+  margin-bottom: 51px;
+}
+.select-pokemon .poke-para{
+  color: #00000099;
+  font-size: 16px;
+}
+.image-select{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 34px;
+}
+.image-container{
+  width: 80px;
+  height: 80px;
+  background-color: #F0F0F0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.image-container img{
+  width: 48px;
+  height: 48px;
+}
+.image-container.selected-image{
+  border: 2px solid #FE5454;
+  width: 100px;
+  height: 100px;
+}
+.image-container.selected-image img{
+  width: 60px;
+  height: 60px;
+}
+.pack-names{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.pack-para{
+  color: #00000099;
+  font-size: 16px;
+}
+.packs{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.packs-info{
+  width: auto;
+  height: 32px;
+  padding: 0px 8px 0px 16px;
+  display: flex;
+  align-items: center;
+  background-color: #DFDFDF;
+  border-radius: 16px;
+  margin-right: 10px;
+  margin-bottom: 16px;
+}
+.packs-info span{
+  margin-right: 10px;
+}
+.total-cost{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.cost-para{
+  color: #889296;
+  font-size: 18px;
+  font-weight: bold;
+}
+.cost{
+  color: #393B3B;
+  font-size: 18px;
+  font-weight: bold;
+}
+.journey-btn{
+  text-align: center;
+}
+.bag-toggle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bag-para{
+  color: #00000099;
+  font-size: 16px;
+}
